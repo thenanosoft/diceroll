@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: blueviolet;
+}
+
+.visible {
+    text-align: center;
+    color: white;
+    display: none;
+}
+
+#center-box {
+    position: absolute;
+  top: 50%;
+  left: 58%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+    width: 20%;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+#space {
+    margin-right: 100px;
+}
